@@ -2,11 +2,8 @@ body {
   background-color: antiquewhite;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .box1 {
+  box-sizing: content-box;
   border: 8px solid black;
   margin: 16px;
   padding: 16px;
@@ -16,6 +13,7 @@ body {
 }
 
 .box2 {
+  box-sizing: border-box;
   border: 8px solid black;
   margin: 16px;
   padding: 16px;
