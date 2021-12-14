@@ -10,18 +10,21 @@
   z-index: 1;
 }
 
-nav .nav-list {
+.nav-list {
   position: absolute;
-  top: 0%;
+  /* top: 0%; */
+  margin-top: 0%;
   height: 40px;
+  list-style-type: none;
 }
 
 .nav-item {
   float: left;
   margin-left: 16px;
   color: white;
-  line-height: normal;
+  line-height: 2.5;
   height: 40px;
+  text-decoration: none;
 }
 
 main {
