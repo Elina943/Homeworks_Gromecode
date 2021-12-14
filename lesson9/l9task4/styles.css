@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
-nav {
+nav .nav-list {
+  position: absolute;
+  top: 0%;
   height: 40px;
 }
 
@@ -14,6 +21,7 @@ nav {
   margin-left: 16px;
   color: white;
   line-height: normal;
+  height: 40px;
 }
 
 main {
@@ -26,8 +34,8 @@ main {
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: calc(10% - 50px / 2);
-  left: calc(50% - 50px / 2);
+  top: calc(50% - (40% / 2));
+  left: calc(50% - (40% / 2));
 }
 
 .ear {
