@@ -30,6 +30,7 @@
 main {
   background-color: beige;
   height: 5000px;
+  width: 100%;
 }
 
 .head {
@@ -37,8 +38,8 @@ main {
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: calc(5%);
-  left: calc(40%);
+  top: calc(3%);
+  left: calc(35%);
 }
 
 .ear {
