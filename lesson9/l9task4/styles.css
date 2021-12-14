@@ -37,8 +37,8 @@ main {
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: calc(50% - (40% / 2));
-  left: calc(50% - (40% / 2));
+  top: calc(5%);
+  left: calc(40%);
 }
 
 .ear {
