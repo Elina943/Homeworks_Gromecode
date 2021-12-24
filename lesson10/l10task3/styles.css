@@ -57,6 +57,7 @@
 }
 .news h2 {
   align-self: center;
+  margin: 16px;
 }
 .news_list {
   list-style-type: none;
