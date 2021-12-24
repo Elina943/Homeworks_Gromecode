@@ -16,10 +16,9 @@
 }
 .article {
   margin: 8px;
-  padding: 16px;
+  padding: 0px 16px;
   background-color: bisque;
   flex-basis: 300px;
-  flex-wrap: wrap;
   flex-grow: 1;
   flex-shrink: 1;
 }
