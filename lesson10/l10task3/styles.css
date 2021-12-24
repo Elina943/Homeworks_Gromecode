@@ -20,11 +20,10 @@
   padding: 0;
   display: flex;
   list-style-type: none;
-  justify-content: 16px;
 }
 
 .navigation_item {
-  margin: 16px;
+  margin: 10px;
 }
 
 .footer_text {
