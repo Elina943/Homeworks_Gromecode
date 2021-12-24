@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .page {
   display: flex;
   flex-direction: column;
@@ -9,12 +12,13 @@
 }
 .articles-list {
   display: flex;
-  flex-wrap: wrap;
 }
 .article {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
+  flex-wrap: wrap;
   flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: 300px;
 }
