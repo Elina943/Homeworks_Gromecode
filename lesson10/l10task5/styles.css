@@ -15,6 +15,7 @@
   flex-wrap: wrap;
 }
 .article {
+  height: auto;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
