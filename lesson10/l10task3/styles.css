@@ -52,4 +52,19 @@
 .news {
   width: 200px;
   background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+.news h2 {
+  align-self: center;
+}
+.news_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list_item {
+  height: 40px;
+  margin-left: 16px;
 }
