@@ -13,7 +13,6 @@
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
 }
 .article {
   margin: 8px;
