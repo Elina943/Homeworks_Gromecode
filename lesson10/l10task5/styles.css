@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 .page {
   display: flex;
@@ -21,4 +21,7 @@
   flex-basis: 300px;
   flex-grow: 1;
   flex-shrink: 1;
+}
+p {
+  margin: 0;
 }
