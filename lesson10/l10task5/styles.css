@@ -16,3 +16,7 @@
   margin: 8px;
   background-color: bisque;
 }
+
+p {
+  margin-bottom: 0;
+}
