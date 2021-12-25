@@ -11,11 +11,10 @@
   flex-wrap: wrap;
 }
 .article {
-  margin: 8px;
-  padding: 16px;
-
-  background-color: bisque;
   flex-basis: 300px;
   flex-grow: 1;
   flex-shrink: 1;
+  padding: 16px;
+  margin: 8px;
+  background-color: bisque;
 }
