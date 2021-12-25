@@ -23,6 +23,6 @@
   padding-bottom: 0;
   background-color: bisque;
   flex-basis: 300px;
-  flex-grow: 2;
-  flex-shrink: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
