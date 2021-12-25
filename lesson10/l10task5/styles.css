@@ -20,7 +20,7 @@
   height: available;
   margin: 8px;
   padding: 16px;
-  padding-bottom: 0;
+
   background-color: bisque;
   flex-basis: 300px;
   flex-grow: 1;
