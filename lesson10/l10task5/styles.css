@@ -11,7 +11,7 @@
   flex-wrap: wrap;
 }
 .article {
-  flex-basis: 300px;
+  flex: 1 0 300px;
   flex-grow: 1;
   flex-shrink: 1;
   padding: 16px;
