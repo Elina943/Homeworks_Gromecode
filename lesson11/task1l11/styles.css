@@ -1,7 +1,5 @@
-div {
-  width: 100px;
-  height: 100px;
-  background-color: coral;
+.container {
+  visibility: hidden;
 }
 .container > div:nth-child(1) {
   display: none;
@@ -11,4 +9,10 @@ div {
 }
 .container > div:nth-child(3) {
   visibility: visible;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
 }
