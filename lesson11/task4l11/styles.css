@@ -6,6 +6,7 @@
   margin: 16px;
   border-bottom: 1px dotted black;
   position: relative;
+  cursor: pointer;
 }
 
 .tooltip {
@@ -16,5 +17,9 @@
   position: absolute;
   left: 0;
   bottom: -40px;
-  visibility: visible;
+  display: none;
+}
+
+.text:hover .tooltip {
+  display: block;
 }
