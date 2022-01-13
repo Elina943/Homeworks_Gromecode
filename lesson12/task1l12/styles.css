@@ -8,7 +8,6 @@ section {
 
 h1 {
   word-spacing: 20px;
-  letter-spacing: 5px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -18,7 +17,7 @@ p {
 }
 
 .technology {
-  font-weight: 900;
+  font-weight: 1000;
   letter-spacing: 3px;
   text-decoration: underline;
   opacity: 80%;
