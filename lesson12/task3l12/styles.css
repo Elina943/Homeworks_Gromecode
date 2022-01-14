@@ -1,7 +1,6 @@
 .list {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   list-style-type: none;
-  line-height: 40px;
 }
 
 .first {
