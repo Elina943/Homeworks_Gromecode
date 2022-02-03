@@ -10,7 +10,7 @@ input[type='checkbox'] {
   background-color: #d3d3d3;
   display: inline-block;
   position: absolute;
-  bottom: 0;
+  top: 1;
   left: 0;
 }
 
@@ -20,6 +20,7 @@ input[type='checkbox'] {
   font-size: 24px;
   margin: 16px;
   top: 16px;
+  text-align: end;
 }
 
 .checkbox input:checked + .checkmark {
