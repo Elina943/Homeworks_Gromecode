@@ -5,12 +5,18 @@ body {
   background-color: bisque;
 }
 
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .login-form {
   background-color: aqua;
   font-size: 16px;
   font-family: monospace;
-  display: block;
-  margin: 200px auto;
+  /* display: block; */
+  /* margin: auto; */
   width: 300px;
   height: auto;
   padding: 16px;
