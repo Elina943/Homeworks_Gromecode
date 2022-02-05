@@ -15,13 +15,14 @@ th {
   border-collapse: collapse;
   /* border-spacing: 10px; */
 }
-td,
-th {
-  padding: 4px;
+tr {
   text-align: right;
   line-height: 40px;
 }
-
+td,
+th {
+  padding: 4px;
+}
 th {
   background-color: aqua;
 }
