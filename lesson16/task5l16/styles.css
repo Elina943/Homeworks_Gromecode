@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.bigForm {
+  margin: 32px;
+}
+
+.form-item {
+  margin: 8px;
+}
