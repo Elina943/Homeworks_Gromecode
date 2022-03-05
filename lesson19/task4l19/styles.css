@@ -24,6 +24,7 @@ body {
   position: relative;
   animation: moving 2s ease;
   animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
 
 @keyframes moving {
