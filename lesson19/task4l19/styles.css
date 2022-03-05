@@ -4,6 +4,7 @@
 body {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .block {
@@ -21,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  position: relative;
+  position: absolute;
   animation: moving 2s ease;
   animation-direction: alternate;
   animation-fill-mode: forwards;
@@ -32,6 +33,6 @@ body {
     top: 100px;
   }
   to {
-    top: calc(50vh- 50px);
+    top: calc(50vh - 50px);
   }
 }
