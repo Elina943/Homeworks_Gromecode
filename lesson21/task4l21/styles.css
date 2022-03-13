@@ -75,6 +75,7 @@ body {
   background-color: #808080;
   color: white;
   line-height: 2em;
+  padding: 0.5em;
   margin-bottom: 0.5em;
   overflow: hidden;
   white-space: nowrap;
@@ -82,7 +83,6 @@ body {
 }
 
 .nav-list-link {
-  padding: 0.5em;
   text-decoration: none;
   color: inherit;
 }
