@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(60deg, red, orange);
+  flex-shrink: 0;
+}
+
+.footer {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  flex-shrink: 0;
+}
+
+.main {
+  flex-grow: 1;
+  width: 100vw;
+  display: flex;
+}
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.section {
+  width: 60%;
+  padding: 0.5em;
+  font-size: 1.25em;
+}
+
+.news {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.125em;
+}
+
+.section__header {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-list-item {
+  background-color: #808080;
+  color: white;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-list-link {
+  padding: 0.5em;
+  text-decoration: none;
+  color: inherit;
+}
