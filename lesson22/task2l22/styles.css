@@ -2,19 +2,19 @@
   background-color: #ff7f50;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1 1;
 }
 .products-list {
   background-color: #006400;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1 1;
 }
 .news {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1 1;
 }
 span {
   background-color: #faebd7;
@@ -28,12 +28,12 @@ span {
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex-grow: 2;
+    flex: 2 1;
   }
 }
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
-    flex: 1;
+    flex: 1 1;
   }
 }
