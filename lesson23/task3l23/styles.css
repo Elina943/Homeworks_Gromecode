@@ -7,9 +7,9 @@
 
 .menu {
   line-height: 3em;
+  margin: 0;
   margin-left: 3em;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 0;
   color: white;
   text-transform: uppercase;
   display: flex;
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .menu__item {
-  padding: 8px;
+  padding: 0 8px;
 }
 .menu__item:hover {
   background-color: #9acd32;
