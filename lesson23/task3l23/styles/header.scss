@@ -19,6 +19,9 @@
   &__item {
     padding: 0 8px;
   }
+  &__item_active {
+    color: yellow;
+  }
 
   &__item:hover {
     background-color: #9acd32;
