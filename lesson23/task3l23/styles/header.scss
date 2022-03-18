@@ -1,0 +1,54 @@
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #006400;
+  position: relative;
+}
+
+.menu {
+  line-height: 3em;
+  margin-left: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+
+  &__item {
+    padding: 8px;
+  }
+
+  &__item:hover {
+    background-color: #9acd32;
+  }
+
+  &__item_active:hover {
+    color: yellow;
+    .submenu {
+      visibility: visible;
+    }
+  }
+}
+
+.submenu {
+  margin: 0;
+  padding: 0;
+  background-color: #ff7f50;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  color: #fff;
+  min-width: 120px;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  visibility: hidden;
+
+  &__item {
+    padding: 8px;
+  }
+  &__item:hover {
+    color: black;
+  }
+}
