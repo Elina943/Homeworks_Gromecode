@@ -1,0 +1,69 @@
+@import 'breakpoints.scss';
+@import 'layout.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(60deg, red, orange);
+  flex-shrink: 0;
+}
+
+.footer {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 80%;
+  }
+  .news {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    flex-direction: row;
+  }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 60%;
+  }
+  .news {
+    width: 20%;
+  }
+}
